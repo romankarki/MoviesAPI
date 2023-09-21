@@ -6,6 +6,8 @@ using Xunit;
 
 namespace MovieAPITests.IntegrationTests
 {
+    [Trait("Category", "Integration")]
+    //dotnet test --filter "Category=Integration"
     public class MovieScenarioTest : IClassFixture<TestingWebAppFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -17,6 +19,7 @@ namespace MovieAPITests.IntegrationTests
         }
 
         [Fact]
+        //task_result
         public async Task PostMovie_GetMovies_UpdateMovies_ShouldSucceed()
         {
             var model = new MovieRequest
@@ -24,10 +27,14 @@ namespace MovieAPITests.IntegrationTests
                 Name = "Integration test movie 100",
                 Rating = 4.2
             };
+            //total 3 calls 
+            //post movie 
             var postResult  = await PostMovie_Should_Succeed(model);
+            //get movies
             await GetMovies_Should_Succeed();
             if(postResult != null)
             {
+                //edit 
                 var editModel = new MovieRequest { Name = "updated name here", Rating = postResult.Rating, Id = postResult.Id };
                 await UpdateMovie_Should_Succed(editModel);
 

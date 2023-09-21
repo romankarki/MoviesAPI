@@ -7,6 +7,7 @@ using Xunit;
 
 namespace MovieAPITests
 {
+
     public class MovieTest: IClassFixture<TestingWebAppFactory<Program>>
     {
         private readonly HttpClient _client;
@@ -19,6 +20,8 @@ namespace MovieAPITests
             var response = await _client.GetAsync("api/Movies/GetMovies");
             var content = await response.Content.ReadAsStringAsync();
             Assert.True(response.IsSuccessStatusCode);
+            // count \
+            // is ok object result 
         }
 
         [Fact]

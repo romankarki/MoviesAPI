@@ -80,3 +80,8 @@ C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\refint\MoviesAP
 C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\MoviesAPI.pdb
 C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\MoviesAPI.genruntimeconfig.cache
 C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\ref\MoviesAPI.dll
+C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\staticwebassets\msbuild.MoviesAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.MoviesAPI.props
+C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MoviesAPI.props
+C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MoviesAPI.props
+C:\Users\Roman\source\repos\MoviesAPI\MoviesAPI\obj\Debug\net6.0\staticwebassets.pack.json
