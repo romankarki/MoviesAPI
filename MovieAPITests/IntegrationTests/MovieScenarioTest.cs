@@ -33,7 +33,7 @@ namespace MovieAPITests.IntegrationTests
 
                 //await DeleteMovie_Should_Succed(editModel.Id);
             }
-            CleanUp();
+            await CleanUp();
         }
 
         private async Task GetMovies_Should_Succeed()
